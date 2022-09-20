@@ -1,0 +1,12 @@
+.card {
+    background-color: black;
+    color: white;
+}
+
+.card p.done {
+    background-color: green;
+}
+
+.card p.todo {
+    background-color: red;
+}

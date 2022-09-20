@@ -10,6 +10,7 @@ Button.propTypes = {
     text: PropTypes.string.isRequired
 }
 
+// Defaulr ptops value
 Button.defaultProps = {
     name: "User"
 }
