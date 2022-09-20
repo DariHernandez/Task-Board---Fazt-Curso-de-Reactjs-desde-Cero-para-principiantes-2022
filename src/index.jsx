@@ -1,20 +1,18 @@
 // Import react modules
-import React from "react"
-import ReactDom from "react-dom/client"
+import React from 'react'
+import ReactDom from 'react-dom/client'
 
 // Import components
-import { Sample, User } from "./Sample"
-import Product, {Navbar} from "./Product"
+import { Sample } from './Sample'
+import {Button} from './Button'
 
 // Get root tag from html
-const root = ReactDom.createRoot(document.querySelector("#root"))
+const root = ReactDom.createRoot(document.querySelector('#root'))
 
 // Content inside the root
 root.render(
     <>
-        <Sample />
-        <User />
-        <Product />
-        <Navbar />
+        <Button text="Click Me" name="Dari"/>
+        <Button text="Pay"/>
     </>
 )

@@ -1,10 +1,10 @@
 // Exported components
 
-export function Sample() {
-    return <h1>Sample text</h1>
+export function Sample({ prefix, name, greet }) {
+    console.log (greet)
+    return <h1>{`${prefix} ${name}`}</h1>
 }
 
 export function User() {
     return <h1>Sample User</h1>
-
 }
