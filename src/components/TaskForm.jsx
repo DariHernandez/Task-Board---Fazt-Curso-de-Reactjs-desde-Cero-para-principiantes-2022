@@ -1,8 +1,12 @@
-import React from 'react'
-import { useState } from 'react'
-import PropTypes from 'prop-types'
+import React, {useState, useContext} from 'react'
+import {TaskContext} from '../context/TaskContext'
 
-function TaskForm({ createTask }) {
+// Remove params
+function TaskForm() {
+
+    // Get "createTask" from context
+    const {createTask} = useContext (TaskContext)
+
     const [title, setTitle] = useState('')
 
     const [description, setDescription] = useState('')
@@ -39,8 +43,6 @@ function TaskForm({ createTask }) {
     )
 }
 
-TaskForm.propTypes = {
-    createTask: PropTypes.func,
-}
+// Remove params datatypes
 
 export default TaskForm

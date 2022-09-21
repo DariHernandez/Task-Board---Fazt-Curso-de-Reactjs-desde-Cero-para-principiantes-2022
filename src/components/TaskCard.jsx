@@ -1,14 +1,15 @@
-import React from 'react'
 import PropTypes from 'prop-types'
+import { TaskContext } from '../context/TaskContext'
+import { useContext } from 'react'
 
-function TaskCard({ task, deleteTask }) {
+// Remove deleteTask param
+function TaskCard({ task }) {
+    const { deleteTask } = useContext(TaskContext)
 
     return (
         <div>
             <h1>{task.title}</h1>
             <p>{task.description}</p>
-
-            {/* Button for call delete function when click */}
             <button onClick={() => deleteTask(task.id)}>Delete</button>
         </div>
     )
@@ -16,7 +17,6 @@ function TaskCard({ task, deleteTask }) {
 
 TaskCard.propTypes = {
     task: PropTypes.object.isRequired,
-    deleteTask: PropTypes.func.isRequired,
 }
 
 export default TaskCard

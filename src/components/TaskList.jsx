@@ -1,7 +1,13 @@
 import TaskCard from './TaskCard'
-import PropTypes from 'prop-types'
+import { TaskContext } from '../context/TaskContext'
+import { useContext } from 'react'
 
-const TaskList = ({ tasks, deleteTask }) => {
+// Remove params
+const TaskList = () => {
+
+    // Get "task" from context
+    const {tasks, deleteTask} = useContext (TaskContext)
+
     if (tasks.length === 0) {
         return <h1>No tasks founds</h1>
     }
@@ -13,17 +19,13 @@ const TaskList = ({ tasks, deleteTask }) => {
                     task={task}
                     key={task.id}
 
-                    // Submit delete task to each card
-                    deleteTask={deleteTask}
+                    // Don't send the function 'delete task'
                 />
             ))}
         </div>
     )
 }
 
-TaskList.propTypes = {
-    tasks: PropTypes.array.isRequired,
-    deleteTask: PropTypes.func.isRequired,
-}
+// Remove params datatypes
 
 export default TaskList
