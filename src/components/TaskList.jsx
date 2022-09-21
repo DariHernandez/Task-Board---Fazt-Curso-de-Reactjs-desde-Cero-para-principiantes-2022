@@ -2,30 +2,31 @@ import TaskCard from './TaskCard'
 import { TaskContext } from '../context/TaskContext'
 import { useContext } from 'react'
 
-// Remove params
 const TaskList = () => {
-
-    // Get "task" from context
-    const {tasks, deleteTask} = useContext (TaskContext)
+    const { tasks, deleteTask } = useContext(TaskContext)
 
     if (tasks.length === 0) {
-        return <h1>No tasks founds</h1>
+        return (
+            // Color white, text 4 times extra lñarge, font bold and text align center
+            <h1 className='text-white text-4xl font-bold text-center'>
+                No tasks founds
+            </h1>
+        )
     }
 
+    console.log (tasks)
+
     return (
-        <div>
+        // Display grid, 4 grid template columns and 2 of gap
+        <div className='grid grid-cols-4 gap-2'>
             {tasks.map((task) => (
                 <TaskCard
                     task={task}
                     key={task.id}
-
-                    // Don't send the function 'delete task'
                 />
             ))}
         </div>
     )
 }
-
-// Remove params datatypes
 
 export default TaskList

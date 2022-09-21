@@ -1,14 +1,9 @@
 import { createContext, useState, useEffect } from 'react'
-
-// Iport data
 import { tasks as data } from '../data/tasks'
 
-// Get context and set a name
 export const TaskContext = createContext()
 
 export function TaskContextProvider(props) {
-    
-    // Paste data functions from "App"
     const [tasks, setTasks] = useState([])
 
     function createTask(taskTitle, taskDescription) {
@@ -17,7 +12,7 @@ export function TaskContextProvider(props) {
             title: taskTitle,
             description: taskDescription,
         }
-        setTasks([...tasks, , new_task])
+        setTasks([...tasks, new_task])
     }
 
     function deleteTask(taskId) {
@@ -27,10 +22,8 @@ export function TaskContextProvider(props) {
 
     useEffect(() => setTasks(data), [])
 
-    // return a context who encapsulate their own children
     return (
         <TaskContext.Provider
-            // Set as value an object with the context data and functions
             value={{
                 tasks,
                 createTask,
@@ -41,4 +34,3 @@ export function TaskContextProvider(props) {
         </TaskContext.Provider>
     )
 }
-

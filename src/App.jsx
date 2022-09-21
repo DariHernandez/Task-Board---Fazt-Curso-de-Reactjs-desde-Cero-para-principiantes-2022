@@ -1,18 +1,16 @@
 import TaskList from './components/TaskList'
 import TaskForm from './components/TaskForm'
 
-// Remove data import
-
 function App() {
-
-    // Remove global / context functions, and data
-
     return (
-        <>
-            {/* Don't submit data to child components */}
-            <TaskForm />
-            <TaskList />
-        </>
+        // background black, height 100vh, passing 10
+        <main className='bg-zinc-900 h-screen p-10'>
+            {/* Magrin left and right auto */}
+            <section className='container mx-auto'>
+                <TaskForm />
+                <TaskList />
+            </section>
+        </main>
     )
 }
 
