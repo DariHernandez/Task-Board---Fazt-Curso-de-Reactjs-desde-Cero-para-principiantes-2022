@@ -1,44 +1,44 @@
 // Import react modules
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import ReactDom from 'react-dom/client'
-
-// Import components
-import { Sample } from './Sample'
-import { Button } from './Button'
-import { TaskCard } from './Task'
-import { GreatingClass } from './Greeting'
-import { Posts } from './Posts'
 
 // Get root tag from html
 const root = ReactDom.createRoot(document.querySelector('#root'))
 
-const users = [
-    {
-        id: 1,
-        name: 'dari dev',
-        image: 'https://robohash.org/dari%20dev',
-    },
-    {
-        id: 2,
-        name: 'user 1',
-        image: 'https://robohash.org/user%201',
-    },
-]
+function Counter() {
 
-// Content inside the root
+    // Get state variables and the update functions
+    const [ counter, setCounter ] = useState(0)
+    const [ text, setText ] = useState('')
+
+    // Funtion to run only when specific state change
+    useEffect (() => {
+        console.log ("Input updated")
+    }, [text])
+
+    return (
+        <>
+            {/* Display counter */}
+            <h1>Counter: {counter}</h1>
+
+            <button onClick={() => {
+                // Update counter with update function
+                setCounter (counter + 1)
+            }}>
+                Incress
+            </button>
+
+            <hr />
+
+            <input onChange={(e) => {
+                setText (e.target.value)
+            }}/>
+        </>
+    )
+}
+
 root.render(
     <>
-        {/* Loop for each user */}
-        {users.map((user) => {
-            return (
-                // react list element identifier
-                <div key={user.id}>
-                    {/* Use array elements */}
-                    <h1>User name: {user.name}</h1>
-                    <img src={user.image} />
-                    
-                </div>
-            )
-        })}
+        <Counter/>
     </>
 )
