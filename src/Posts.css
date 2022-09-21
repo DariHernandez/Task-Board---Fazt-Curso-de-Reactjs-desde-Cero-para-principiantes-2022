@@ -1,9 +1,0 @@
-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-button svg {
-    padding: 5px;
-}
