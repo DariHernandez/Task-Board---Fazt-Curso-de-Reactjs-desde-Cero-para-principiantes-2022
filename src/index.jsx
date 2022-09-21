@@ -7,6 +7,7 @@ import { Sample } from './Sample'
 import {Button} from './Button'
 import {TaskCard} from "./Task"
 import {GreatingClass} from './Greeting'
+import {Posts} from './Posts'
 
 // Get root tag from html
 const root = ReactDom.createRoot(document.querySelector('#root'))
@@ -14,6 +15,6 @@ const root = ReactDom.createRoot(document.querySelector('#root'))
 // Content inside the root
 root.render(
     <>
-        <Button text="click me" />
+        <Posts />
     </>
 )
