@@ -6,6 +6,7 @@ import ReactDom from 'react-dom/client'
 import { Sample } from './Sample'
 import {Button} from './Button'
 import {TaskCard} from "./Task"
+import {GreatingClass} from './Greeting'
 
 // Get root tag from html
 const root = ReactDom.createRoot(document.querySelector('#root'))
@@ -13,7 +14,6 @@ const root = ReactDom.createRoot(document.querySelector('#root'))
 // Content inside the root
 root.render(
     <>
-        <TaskCard ready={true}/>
-        <TaskCard ready={false}/>
+        <GreatingClass />
     </>
 )
