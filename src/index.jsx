@@ -14,6 +14,6 @@ const root = ReactDom.createRoot(document.querySelector('#root'))
 // Content inside the root
 root.render(
     <>
-        <GreatingClass />
+        <Button text="click me" />
     </>
 )
