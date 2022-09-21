@@ -1,8 +1,7 @@
-import TaskCard from './TaskCard';
+import TaskCard from './TaskCard'
 import PropTypes from 'prop-types'
 
-const TaskList = ({ tasks }) => {
-
+const TaskList = ({ tasks, deleteTask }) => {
     if (tasks.length === 0) {
         return <h1>No tasks founds</h1>
     }
@@ -10,8 +9,13 @@ const TaskList = ({ tasks }) => {
     return (
         <div>
             {tasks.map((task) => (
-                // Use card component, with key send sending props
-                <TaskCard task={task} key={task.id}/>
+                <TaskCard
+                    task={task}
+                    key={task.id}
+
+                    // Submit delete task to each card
+                    deleteTask={deleteTask}
+                />
             ))}
         </div>
     )
@@ -19,6 +23,7 @@ const TaskList = ({ tasks }) => {
 
 TaskList.propTypes = {
     tasks: PropTypes.array.isRequired,
+    deleteTask: PropTypes.func.isRequired,
 }
 
 export default TaskList
