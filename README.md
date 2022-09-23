@@ -117,7 +117,7 @@ Small React project for learn the main React topics. The app use the data stored
 - [x] [Create and Use context](notes/21%20Create%20and%20Use%20context%20145f140234034ed898958a90c9ee43ef.md)
 - [x] [Tailwindcss](notes/22%20Tailwindcss%2085ff7eff885d4d00803f7832d90c1569.md)
 - [x] [Gihtub pages deploy](notes/23%20Gihtub%20pages%20deploy%2071671f5d272c4b17a096c12daf035433.md)
-- [ ] [Edit tasks](notes/23%20Gihtub%20pages%20deploy%2071671f5d272c4b17a096c12daf035433.md)
+- [ ] Edit tasks
 - [ ] Update tasks
 - [ ] keep changes
 
