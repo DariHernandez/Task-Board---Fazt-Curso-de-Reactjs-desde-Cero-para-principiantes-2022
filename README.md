@@ -26,7 +26,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/DariHernandez/task-board-app/">
+  <a href="https://github.com/darideveloper/task-board-app/">
     <img src="public/course-logo.webp" alt="Logo" height="80">
   </a>
 
@@ -37,11 +37,11 @@
     <a href="https://faztweb.com/">Fazt</a> "Curso de Reactjs desde Cero para principiantes 2022"
     <br />
     <br />
-    <a href="https://darihernandez.github.io/task-board-app/">View Demo</a>
+    <a href="https://darideveloper.github.io/task-board-app/">View Demo</a>
     ·
-    <a href="https://github.com/DariHernandez/task-board-app/issues">Report Bug</a>
+    <a href="https://github.com/darideveloper/task-board-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/DariHernandez/task-board-app/issues">Request Feature</a>
+    <a href="https://github.com/darideveloper/task-board-app/issues">Request Feature</a>
   </p>
 </div>
 
@@ -68,7 +68,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Result Screen Shot][product-screenshot]](https://darihernandez.github.io/task-board-app/)
+[![Result Screen Shot][product-screenshot]](https://darideveloper.github.io/task-board-app/)
 
 Small React project for learn the main React topics. The app use the data stored in a local javascript file, and have the functions to add and delete new task. 
 
@@ -121,7 +121,7 @@ Small React project for learn the main React topics. The app use the data stored
 - [ ] Update tasks
 - [ ] keep changes
 
-See the [open issues](https://github.com/DariHernandez/task-board-app/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/darideveloper/task-board-app/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +140,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Dari Dev - darideveloper@gmail.com@
 
-Project Link: [https://github.com/DariHernandez/task-board-app/](https://github.com/DariHernandez/task-board-app/)
+Project Link: [https://github.com/darideveloper/task-board-app/](https://github.com/darideveloper/task-board-app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,16 +157,16 @@ Project Link: [https://github.com/DariHernandez/task-board-app/](https://github.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/DariHernandez/task-board-app.svg?style=for-the-badge
-[contributors-url]: https://github.com/DariHernandez/task-board-app//graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/DariHernandez/task-board-app.svg?style=for-the-badge
-[forks-url]: https://github.com/DariHernandez/task-board-app//network/members
-[stars-shield]: https://img.shields.io/github/stars/DariHernandez/task-board-app.svg?style=for-the-badge
-[stars-url]: https://github.com/DariHernandez/task-board-app//stargazers
-[issues-shield]: https://img.shields.io/github/issues/DariHernandez/task-board-app.svg?style=for-the-badge
-[issues-url]: https://github.com/DariHernandez/task-board-app/issues
-[license-shield]: https://img.shields.io/github/license/DariHernandez/task-board-app.svg?style=for-the-badge
-[license-url]: https://github.com/DariHernandez/task-board-app//blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/darideveloper/task-board-app.svg?style=for-the-badge
+[contributors-url]: https://github.com/darideveloper/task-board-app//graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/darideveloper/task-board-app.svg?style=for-the-badge
+[forks-url]: https://github.com/darideveloper/task-board-app//network/members
+[stars-shield]: https://img.shields.io/github/stars/darideveloper/task-board-app.svg?style=for-the-badge
+[stars-url]: https://github.com/darideveloper/task-board-app//stargazers
+[issues-shield]: https://img.shields.io/github/issues/darideveloper/task-board-app.svg?style=for-the-badge
+[issues-url]: https://github.com/darideveloper/task-board-app/issues
+[license-shield]: https://img.shields.io/github/license/darideveloper/task-board-app.svg?style=for-the-badge
+[license-url]: https://github.com/darideveloper/task-board-app//blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/francisco-dari-hernandez-6456b6181/
 [product-screenshot]: public/screenshot.gif
