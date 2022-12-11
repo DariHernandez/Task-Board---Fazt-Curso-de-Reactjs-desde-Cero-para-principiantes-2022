@@ -11,15 +11,11 @@
 
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![Fiverr][fiverr-shield]][fiverr-url]
+[![Gmail][gmail-shield]][gmail-url]
+
 
 
 
@@ -72,8 +68,6 @@
 
 Small React project for learn the main React topics. The app use the data stored in a local javascript file, and have the functions to add and delete new task. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 ### Built With
@@ -87,8 +81,6 @@ Small React project for learn the main React topics. The app use the data stored
 <a href="https://vitejs.dev/">
   <img src="https://cdn.svgporn.com/logos/vitejs.svg" width="50" alt="vitejs" title="vitejs">
 </a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LEARNING -->
 ## Learning
@@ -123,15 +115,11 @@ Small React project for learn the main React topics. The app use the data stored
 
 See the [open issues](https://github.com/darideveloper/task-board-app/issues) for a full list of proposed features (and known issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -142,16 +130,12 @@ Dari Dev - darideveloper@gmail.com@
 
 Project Link: [https://github.com/darideveloper/task-board-app/](https://github.com/darideveloper/task-board-app/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [Fazt](https://faztweb.com/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -190,3 +174,9 @@ Project Link: [https://github.com/darideveloper/task-board-app/](https://github.
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555&logoColor=white
+[fiverr-shield]: https://img.shields.io/badge/-fiverr-black.svg?style=for-the-badge&logo=fiverr&colorB=555&logoColor=white
+[gmail-url]: mailto:darideveloper@gmail.com
+[fiverr-url]: https://www.fiverr.com/darideveloper
+
+<span>Last code update: <time datetime="2022-09-23" class="last-update">2022-09-23</time>
