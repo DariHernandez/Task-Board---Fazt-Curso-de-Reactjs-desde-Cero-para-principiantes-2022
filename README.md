@@ -18,7 +18,7 @@
 
 Visit at: **[darideveloper.github.io/task-board-app](https://darideveloper.github.io/task-board-app/)**
 
-Task board based in React JS course of the developer  [Fazt](https://faztweb.com/) \\\"Curso de Reactjs desde Cero para principiantes 2022\\\"
+Task board based in React JS course of the developer  [Fazt](https://faztweb.com/) "Curso de Reactjs desde Cero para principiantes 2022"
 
 Start date: **2022-09-20**
 
@@ -45,35 +45,35 @@ Project type: **personal's project**
 
 # Details
 
-Small React project for learn the main React topics. The app use the data stored in a local javascript file, and have the functions to add and delete new task. \r
-\r
-## Learning\r
-- [x] Develop enviroment\r
-- [x] Project Structure\r
-- [x] Hello World\r
-- [x] Components\r
-- [x] EcmaScript - Javascript Modulesd)\r
-- [x] Props\r
-- [x] Styles\r
-- [x] Components types\r
-- [x] Event Handlers\r
-- [x] Fetch API\r
-- [x] Third Party Modules\r
-- [x] Arrays in React\r
+Small React project for learn the main React topics. The app use the data stored in a local javascript file, and have the functions to add and delete new task. 
+
+## Learning
+- [x] Develop enviroment
+- [x] Project Structure
+- [x] Hello World
+- [x] Components
+- [x] EcmaScript - Javascript Modulesd)
+- [x] Props
+- [x] Styles
+- [x] Components types
+- [x] Event Handlers
+- [x] Fetch API
+- [x] Third Party Modules
+- [x] Arrays in React
 - [x] React hooks
 
 # Roadmap
 
-- [x] Setup App\r
-- [x] Show task list\r
-- [x] Add task with a form\r
-- [x] Split in components\r
-- [x] Delete task\r
-- [x] Create and Use context\r
-- [x] Tailwindcss\r
-- [x] Gihtub pages deploy\r
-- [ ] Edit tasks\r
-- [ ] Update tasks\r
+- [x] Setup App
+- [x] Show task list
+- [x] Add task with a form
+- [x] Split in components
+- [x] Delete task
+- [x] Create and Use context
+- [x] Tailwindcss
+- [x] Gihtub pages deploy
+- [ ] Edit tasks
+- [ ] Update tasks
 - [ ] keep changes
 
 
